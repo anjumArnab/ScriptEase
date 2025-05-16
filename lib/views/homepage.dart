@@ -112,17 +112,17 @@ class _HomePageState extends State<HomePage> {
               ElevatedButton(
                 onPressed: _submitForm,
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.blueAccent, // Button background color
-                  foregroundColor: Colors.white, // Text color
+                  backgroundColor: Colors.grey,
+                  foregroundColor: Colors.white,
                   padding: EdgeInsets.symmetric(horizontal: 24, vertical: 14),
                   textStyle: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
                   ),
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12), // Rounded corners
+                    borderRadius: BorderRadius.circular(3),
                   ),
-                  elevation: 5, // Shadow depth
+                  elevation: 1.5,
                 ),
                 child: Text('Submit Feedback'),
               ),
